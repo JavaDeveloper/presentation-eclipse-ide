@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Slide on Cloud - Reveal.js Presentation on OpenShift PaaS</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+		  <div class="slides">
+
+			    <!--Slide 1 -->
+				<section>
+					<h1>Eclipse IDE</h1>
+					<h3>the best IDE for Java devolopers ever</h3>
+                    <small>
+					<p>Created by <a href="http://vk.com/eusenko">Ievgen Usenko</a> </p>
+                    </small>
+				</section>
+
+
+				<!-- Sline 2 -->
+				<section>
+				  <h2>Origins</h2>
+				  <ul>
+					<li>IBM VisualAge and $40 million</li>
+					<li>2001 - version 1.0</li>
+					<li>2003 - OCGI SWT/JFrace</li>
+					<li>Juno - 3.8, 4.2, Kepler - 4.x</li>
+				  </ul>
+				</section>
+
+
+				<!-- slide 3 -->
+				<section>
+				  <!-- slide 3.1 -->
+				  <section>
+					<h2>Installation</h2>
+					<ul>
+					  <li>Windows, Mac OS X, Linux</li>
+					  <li>IBM JDK, Open JDK, Oracle JDK</li>
+					  <li>Release, Stable, Integration</li>
+					  <li>*.zip, *.sh, *.jar</li>
+					  <li>Pure IDE or Tool Suite</li>
+					</ul>
+				  </section>
+				  <!-- slide 3.1 -->
+				  <section>
+					<h2>Pure IDE</h2>
+					<p>Eclipse Classic, Eclipse IDE for Java EE</p>
+					<a href="http://www.eclipse.org/downloads/">
+					  <img src="http://upload.wikimedia.org/wikipedia/ru/3/34/Eclipse-logo.png" alt="Eclipse">
+					</a>
+				  </section>
+				  <!-- slide 3.2 -->
+				  <section>
+					<h2>STS - Spring Tool Suite</h2>
+					<p>					  The Spring Tool Suite™ (STS) provides the best Eclipse-powered development environment for building Spring-powered enterprise applications. STS supplies tools for all of the latest enterprise Java and Spring, and comes on top of the latest Eclipse releases.
+					</p>
+					<a href="http://www.springsource.org/sts">
+					  <img src="http://www.springsource.org/files/sts/STSPage_Banner.png" alt="STS">
+					</a>
+				  </section>
+				  <!-- slide 3.3 -->
+				  <section>
+					<h2>JBoss Developer Studio</h2>
+					<p>JBoss Tools is an umbrella project for a set of Eclipse plugins that supports JBoss and related technology; there is support for Hibernate, JBoss AS, Drools, jBPM, JSF, (X)HTML, Seam, Maven, JBoss ESB, JBoss Portal and more..
+					</p>
+					<a href="https://devstudio.jboss.com/download/6.x.html">
+					  <img src="http://www.jboss.org/dms/tools/images/tools-banner-1180px.png" alt="ADT">
+					</a>
+				  </section>
+				  <!-- slide 3.4 -->
+				  <section>
+					<h2>ADT - Android Developer Tools</h2>
+					<p>					  
+					  The ADT Bundle provides everything you need to start developing apps, including a version of the Eclipse IDE with built-in ADT (Android Developer Tools) to streamline your Android app development. 
+					</p>
+					<a href="http://developer.android.com/sdk/index.html">
+					  <img src="http://developer.android.com/images/sdk-cube.png" alt="ADT">
+					</a>
+				  </section>
+				</section>
+
+				<!-- slide 4 -->
+				<section>
+				  <h2>Right Away After Installation</h2>
+				  <p>Following steps are optional and depend on your distribution:</p>
+				  <ul>
+					<li>Install Maven pluggin - m2eclipse</li>
+					<li>Install VCS pluggins: Subclipse, EGit, P4Eclipse, etc</li>
+					<li>Switch code formatter</li>
+				  </ul>
+				</section>
+
+				<!-- Section 2 -->
+				<section>
+				  <section>
+					<h2>Import project from Git</h2>
+					<ul>
+					  <li>Clone project using git utility. Import it into IDE</li>
+					  <li>Import directrly from the repo using Team plugin.</li>
+					</ul>
+					<a href="http://www.eclipse.org/egit/">
+					  <img src="http://www.eclipse.org/egit/welcome.png" alt="EGit">
+					</a>
+				  </section>
+				  <section>
+					<h2>Key Assist</h2>
+					<img src="http://embedded.su/uploads/images/00/00/01/2011/01/27/901f68.jpg"/>
+					<ul>
+					  <li>Ctrl+Shift+L - Open Key Assist</li>
+					  <li>Ctrl+Shift+L(again) - Open key preferences</li>
+					</ul>					
+				  </section>
+				  <section>
+					<h2>Quick Fix - Ctrl+1</h2>
+					<img src="http://technonstop.com/sites/default/files/field/image/eclipse-quick-fix-menu.png"/>
+				  </section>
+				  <section>
+					<h2>Class/Resource navigation</h2>
+					<img src="http://rayfd.files.wordpress.com/2007/05/ctrl_shift_t.jpg"/>
+					<ul>
+					  <li>Ctrl+Shift+T - Open class</li>
+					  <li>Ctrl+Shift+O - Open resource</li>
+					  <li>Ctrl-E - Wolk through open files</li>
+					</ul>
+				  </section>
+				  <section>
+					<h2>Call Hierarchy/References</h2>
+					<img src="https://docs.palantir.com/metropolisdev/eclipse-shortcuts.data/show_all_callers.png"/>
+					<ul>
+					  <li>Ctrl+Shift+H - Call hierarchy</li>
+					  <li>Ctrl+Shift+G - References</li>
+					</ul>
+				  </section>
+				  <section>
+					<h2>Type/Class hierarchy</h2>
+					<img src="https://docs.palantir.com/metropolisdev/eclipse-shortcuts.data/type_hierarchy.png"/>
+					<ul>
+					  <li>Ctrl+T - Quick Hierarchy</li>
+					  <li>Ctrl-O - Quick Outline</li>
+					  <li>F4 - Type Hierarchy</li>
+					</ul>
+				  </section>
+				  <!--section>
+					<h2>Open view</h2>
+					<ul>
+					  <li>Ctrl-F7 - Switch view</li>
+					</ul>
+				  </section-->
+
+
+				  <section>
+					<h2>Refactoring</h2>
+				  </section>
+				  
+				  <section>
+					<h2>Confighs - Spring Explorer View</h2>
+					<ul>
+					  <li>Dependency graph - the vizualizer for bean relationships</li>
+					  <li>New Bean Definition - dialog for entering bean defenitions</li>
+					  <li>Request Mapping - view shows all requests mappings configured in this file</li>
+					  <li>Validate - bean configuration validator based on cfg. settings in the preferences</li>
+					</ul>
+				  </section>
+				</section>
+
+				<section>
+				  <h2>Running...</h2>
+				  <img width="600" src="http://help.eclipse.org/juno/topic/org.eclipse.cdt.doc.user/images/run_debug_launch_group.png"/>
+				  <ul>
+					<li>Run configurations. Run as... Ctrl+F11</li>
+					<li>Launch Group</li>
+				  </ul>
+				</section>
+				<section>
+				  <section>
+					<h2>Debugging...</h2>
+					<img src="http://www.ibm.com/developerworks/library/os-ecbug/fig9.jpg"/>
+					<ul>
+					  <li>Conditional breakpoints</li>
+					  <li>Hotswap Bug Fixing</li>
+					  <li>Remote debugging</li>
+					</ul>
+				  </section>
+				  <section>
+				  <h2>Evaluating expressions</h2>
+				  <img src="http://www.ibm.com/developerworks/library/os-ecbug/fig7.jpg"/>
+				  <ul>
+					<li>Ctrl+Shift+I - Evaluate expressions in the editor</li>
+				  </ul>
+				  </section>
+				  <section>
+					<h2>Scrapbooking your live code</h2>
+					<img src="http://www.ibm.com/developerworks/library/os-ecbug/fig8.jpg"/>
+				  </section>
+				</section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/showdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
